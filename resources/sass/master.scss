@@ -1,0 +1,32 @@
+// @import url('https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css');
+@import '~bootstrap/scss/bootstrap';
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
+
+// variables import
+@import './helpers/variables';
+@import './helpers/mixins';
+
+
+// Modules import
+@import './modules/global';
+@import './modules/aside';
+@import './modules/main_top_navbar';
+
+@import './modules/form';
+@import './modules/table';
+@import './modules/accordion';
+
+@import './authentication';
+@import './settings_pages';
+
+//Pages
+@import './pages/profile';
+@import './pages/invoice';
+@import './pages/pos';
+@import './pages/payment';
+@import './pages/dashboard';
+
+
+
+
+

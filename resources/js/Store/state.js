@@ -1,0 +1,15 @@
+export default {
+    customers: [],
+    mokams: [],
+    mokamCustomers: [],
+    suppliers: [],
+    showrooms: [],
+    subtotal: 0,
+    oldData: null,
+    customerBalance: 0,
+    supplierBalance: 0,
+    cashes: [],
+    allProducts: [],
+    bankAccounts: [],
+    rolePermissions : [],
+}

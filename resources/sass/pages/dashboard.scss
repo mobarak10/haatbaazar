@@ -1,0 +1,58 @@
+// File import ========================>
+@import '../helpers/variables';
+@import '../helpers/mixins';
+
+// style ===============================>
+.dashboard{
+    .content-box{
+        width: 100%;
+        padding-top: 10px;
+        transition: $ts;
+        border: 1px solid rgba(128, 128, 128, 0.514);
+        box-shadow: $bs;
+        border-radius: 3px;
+        &:hover{
+            opacity: .9;
+        }
+        .content{
+            padding: 0 20px;
+            @include flex-box($align-items: center);
+            i{
+                font-size: 60px;
+                opacity: 0.7;
+                margin-right: 10px;
+            }
+            small{
+                font-size: 11px;
+            }
+        }
+    }
+    .statistics-wrapper{
+        .card{
+            .card-header{
+                text-align: right;
+                @include flex-box($justify-content: space-between, $align-items: center);
+                i{
+                    font-size: 40px;
+                    color: $secondary-color;
+                }
+                p{
+                    color: $gray-color;
+                    margin-bottom: 0;
+                    font-size: 13px;
+                }
+                h3{
+                    font-weight: 300;
+                }
+            }
+            .footer{
+                padding: 5px 10px;
+                font-size: 13px;
+                color: $gray-color;
+                i{
+                    padding-right: 2px;
+                }
+            }
+        }
+    }
+}
